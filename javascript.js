@@ -11,3 +11,19 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.*/
   - SE non non è nessuno dei precendenti riporto il numero sul grezzo nella console.
   - SE non è nessuno dei precedenti rileggite cosa hai scritto.
 */
+
+
+for (let i=0; i <= 100; i++){
+    if (i % 5 === 0 && i % 3 === 0 && i !== 0) {
+        console.log("FizzBuzz")
+    }
+    else if ((i % 3) === 0 && i !== 0) {
+        console.log("Fizz")
+    }
+    else if ((i % 5) === 0 && i !== 0) {
+        console.log("Buzz")
+    }
+    else {
+        console.log(i)
+    }
+}
